@@ -1,0 +1,30 @@
+numeric:
+  - wm_yr_wk
+  - wday
+  - month
+  - year
+  - snap_CA
+  - snap_TX
+  - snap_WI
+  - sell_price
+
+models_dict:
+  Decision Tree Regressor: dt
+  Light Gradient Boosting Machine: lightgbm
+  Linear Regression: lr
+  K Neighbors Regressor: knn
+
+data_types:
+  event_name_1: object
+  event_type_1: object
+  demand: int16
+  wm_yr_wk: int16
+  wday: int8
+  month: int8
+  year: int16
+  snap_CA: int8
+  snap_TX: int8
+  snap_WI: int8
+  sell_price: float32
+
+filepath: data.gzip

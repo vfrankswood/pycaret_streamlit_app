@@ -1,0 +1,7 @@
+pyyaml
+streamlit
+lightgbm
+sklearn
+pycaret
+altair
+pandas
